@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiénes Somos | CABAL - Líderes en Commodities</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/jpeg" href="assets/images/logo.jpeg">
+    <link rel="apple-touch-icon" href="assets/images/logo.jpeg">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Meta Tags -->
+    <meta name="description" content="Conoce la historia, misión y visión de CABAL. Más de una década liderando la industria de commodities en Centroamérica.">
+    <meta name="keywords" content="CABAL, historia, misión, visión, commodities, Centroamérica, liderazgo">
+    
+    <!-- Tailwind Config -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: {
+                            DEFAULT: '#F97316',
+                            light: '#FB923C',
+                            dark: '#EA580C'
+                        },
+                        secondary: {
+                            DEFAULT: '#1E3A8A',
+                            light: '#3B82F6',
+                            dark: '#1E40AF'
+                        },
+                        neutral: {
+                            50: '#FAFAFA',
+                            100: '#F5F5F5',
+                            200: '#E5E5E5',
+                            300: '#D4D4D4',
+                            400: '#A3A3A3',
+                            500: '#737373',
+                            600: '#525252',
+                            700: '#404040',
+                            800: '#262626',
+                            900: '#171717'
+                        }
+                    },
+                    fontFamily: {
+                        'primary': ['Inter', 'system-ui', 'sans-serif'],
+                        'secondary': ['Playfair Display', 'Georgia', 'serif']
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-primary bg-neutral-50">
+    <!-- Elite Header -->
+    <header class="elite-header" id="header">
+        <div class="container">
+            <div class="flex justify-between items-center py-4">
+                <a href="index.html" class="elite-logo cursor-pointer">
+                    <img src="assets/images/logo.jpeg" alt="CABAL Logo" class="w-14 h-14">
+                    <div class="elite-logo-text">
+                        <h1 class="text-2xl font-bold">CABAL</h1>
+                        <span class="text-xs">CENTROAMÉRICA DE BALANCEADOS, S.A.</span>
+                    </div>
+                </a>
+                
+                <nav class="hidden lg:flex space-x-8">
+                    <a href="index.html" class="elite-nav-link">Inicio</a>
+                    <a href="about.html" class="elite-nav-link active">Quiénes Somos</a>
+                    <a href="products.html" class="elite-nav-link">Productos</a>
+                    <a href="contact.html" class="elite-nav-link">Contacto</a>
+                </nav>
+                
+                <button id="mobile-menu-btn" class="lg:hidden text-neutral-700 hover:text-primary transition-colors">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+            
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="hidden lg:hidden border-t border-neutral-200 py-4">
+                <div class="space-y-2">
+                    <a href="index.html" class="block py-3 px-4 text-neutral-700 hover:text-primary">Inicio</a>
+                    <a href="about.html" class="block py-3 px-4 text-primary font-medium">Quiénes Somos</a>
+                    <a href="products.html" class="block py-3 px-4 text-neutral-700 hover:text-primary">Productos</a>
+                    <a href="contact.html" class="block py-3 px-4 text-neutral-700 hover:text-primary">Contacto</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="elite-section text-white" style="background: linear-gradient(to right, rgba(249, 115, 22, 0.85), rgba(234, 88, 12, 0.85), rgba(249, 115, 22, 0.85));">
+        <div class="container">
+            <div class="text-center">
+                <h1 class="text-5xl md:text-6xl font-secondary font-bold mb-6">Nuestra Historia</h1>
+                <div class="elite-divider bg-white"></div>
+                <p class="text-xl opacity-95 max-w-3xl mx-auto font-light">
+                    Más de una década construyendo el futuro de la industria pecuaria en Centroamérica 
+                    con innovación, calidad y compromiso inquebrantable.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Company Story Section -->
+    <section class="elite-section bg-white">
+        <div class="container">
+            <div class="elite-grid elite-grid-2 items-center gap-16">
+                <div class="animate-slide-in-left">
+                    <h2 class="text-4xl font-secondary text-secondary mb-6">Líderes por Naturaleza</h2>
+                    <p class="text-lg text-neutral-600 leading-relaxed mb-6">
+                        <strong>CABAL</strong> nació con una visión clara: revolucionar la industria de commodities en Centroamérica 
+                        a través de la excelencia operacional, la innovación tecnológica y un compromiso inquebrantable con la calidad.
+                    </p>
+                    <p class="text-lg text-neutral-600 leading-relaxed mb-6">
+                        Desde nuestros inicios, hemos construido una reputación sólida basada en la <strong>transparencia, 
+                        eficiencia y confiabilidad</strong>, convirtiéndonos en el socio estratégico preferido de las empresas 
+                        líderes en la industria pecuaria y agroindustrial.
+                    </p>
+                    <p class="text-lg text-neutral-600 leading-relaxed">
+                        Hoy, somos reconocidos como <strong>pioneros en soluciones integrales</strong>, ofreciendo desde materias 
+                        primas de calidad mundial hasta servicios especializados de logística y trading.
+                    </p>
+                </div>
+                
+                <div class="animate-slide-in-right">
+                    <div class="relative">
+                        <img src="assets/images/bodega-exterior.jpg" alt="Instalaciones CABAL" 
+                             class="w-full h-96 object-cover rounded-2xl shadow-2xl">
+                        <div class="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent rounded-2xl"></div>
+                        <div class="absolute bottom-6 left-6 text-white">
+                            <div class="bg-primary px-4 py-2 rounded-lg">
+                                <span class="font-bold">Instalaciones de Clase Mundial</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Section -->
+    <section class="elite-section bg-neutral-50">
+        <div class="container">
+            <div class="elite-section-header">
+                <h2 class="font-secondary text-secondary">Conozca Más Sobre Nosotros</h2>
+                <div class="elite-divider"></div>
+                <p class="subtitle">
+                    Descubra nuestra historia, valores y compromiso con la excelencia en este video
+                </p>
+            </div>
+            
+            <div class="max-w-4xl mx-auto">
+                <div class="elite-card p-0 overflow-hidden">
+                    <div class="relative w-full bg-black rounded-t-2xl">
+                        <video 
+                            class="w-full h-auto"
+                            controls
+                            autoplay
+                            muted
+                            loop
+                            preload="auto"
+                            poster=""
+                            style="max-height: 600px; object-fit: contain;">
+                            <source src="assets/video/recorrido.mp4" type="video/mp4">
+                            Su navegador no soporta la reproducción de videos.
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission & Vision Section -->
+    <section class="elite-section bg-neutral-50">
+        <div class="container">
+            <div class="elite-section-header">
+                <h2 class="font-secondary text-secondary">Misión & Visión</h2>
+                <div class="elite-divider"></div>
+                <p class="subtitle">
+                    Los principios que guían cada decisión y definen nuestro compromiso con la excelencia
+                </p>
+            </div>
+            
+            <div class="elite-grid elite-grid-2 gap-12">
+                <div class="elite-card text-center">
+                    <div class="w-20 h-20 bg-gradient-to-r from-primary to-primary-dark rounded-2xl flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-bullseye text-white text-3xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-secondary text-secondary mb-6">Nuestra Misión</h3>
+                    <p class="text-neutral-600 leading-relaxed text-lg">
+                        Proporcionar <strong>soluciones integrales</strong> en el comercio de commodities, garantizando 
+                        calidad superior, transparencia absoluta y eficiencia operacional en toda la cadena de suministro, 
+                        para contribuir al desarrollo sostenible de la industria pecuaria en Centroamérica.
+                    </p>
+                </div>
+                
+                <div class="elite-card text-center">
+                    <div class="w-20 h-20 bg-gradient-to-r from-secondary to-secondary-dark rounded-2xl flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-eye text-white text-3xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-secondary text-secondary mb-6">Nuestra Visión</h3>
+                    <p class="text-neutral-600 leading-relaxed text-lg">
+                        Ser el <strong>líder indiscutible</strong> en el mercado centroamericano de commodities, 
+                        reconocidos por nuestra integridad, innovación y capacidad de transformación, estableciendo 
+                        relaciones comerciales duraderas basadas en la confianza mutua y el crecimiento conjunto.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Values Section -->
+    <section class="elite-section bg-white">
+        <div class="container">
+            <div class="elite-section-header">
+                <h2 class="font-secondary text-secondary">Nuestros Valores</h2>
+                <div class="elite-divider"></div>
+                <p class="subtitle">
+                    Los pilares fundamentales que definen nuestra cultura organizacional y guían nuestras acciones
+                </p>
+            </div>
+            
+            <div class="elite-grid elite-grid-4">
+                <div class="elite-card text-center group">
+                    <div class="w-16 h-16 bg-gradient-to-r from-primary to-primary-dark rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
+                        <i class="fas fa-handshake text-white text-2xl"></i>
+                    </div>
+                    <h4 class="text-lg font-secondary text-secondary mb-3">Integridad</h4>
+                    <p class="text-neutral-600 text-sm">
+                        Actuamos con honestidad y transparencia en cada transacción y relación comercial.
+                    </p>
+                </div>
+                
+                <div class="elite-card text-center group">
+                    <div class="w-16 h-16 bg-gradient-to-r from-secondary to-secondary-dark rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
+                        <i class="fas fa-star text-white text-2xl"></i>
+                    </div>
+                    <h4 class="text-lg font-secondary text-secondary mb-3">Excelencia</h4>
+                    <p class="text-neutral-600 text-sm">
+                        Buscamos la perfección en cada proceso, producto y servicio que ofrecemos.
+                    </p>
+                </div>
+                
+                <div class="elite-card text-center group">
+                    <div class="w-16 h-16 bg-gradient-to-r from-primary to-primary-dark rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
+                        <i class="fas fa-lightbulb text-white text-2xl"></i>
+                    </div>
+                    <h4 class="text-lg font-secondary text-secondary mb-3">Innovación</h4>
+                    <p class="text-neutral-600 text-sm">
+                        Adoptamos tecnologías y metodologías de vanguardia para liderar el cambio.
+                    </p>
+                </div>
+                
+                <div class="elite-card text-center group">
+                    <div class="w-16 h-16 bg-gradient-to-r from-secondary to-secondary-dark rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
+                        <i class="fas fa-users text-white text-2xl"></i>
+                    </div>
+                    <h4 class="text-lg font-secondary text-secondary mb-3">Compromiso</h4>
+                    <p class="text-neutral-600 text-sm">
+                        Nos dedicamos completamente al éxito de nuestros clientes y socios comerciales.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Excellence Section -->
+    <section class="elite-section bg-neutral-50">
+        <div class="container">
+            <div class="elite-grid elite-grid-2 items-center gap-16">
+                <div class="animate-slide-in-left">
+                    <div class="relative">
+                        <img src="assets/images/equipo.png" alt="Equipo CABAL" 
+                             class="w-full h-96 object-cover rounded-2xl shadow-2xl">
+                        <div class="absolute inset-0 bg-gradient-to-t from-secondary/20 to-transparent rounded-2xl"></div>
+                        <div class="absolute bottom-6 left-6 text-white">
+                            <div class="bg-secondary px-4 py-2 rounded-lg">
+                                <span class="font-bold">Equipo de Expertos</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="animate-slide-in-right">
+                    <h2 class="text-4xl font-secondary text-secondary mb-6">Talento de Clase Mundial</h2>
+                    <p class="text-lg text-neutral-600 leading-relaxed mb-6">
+                        Nuestro equipo está conformado por <strong>profesionales altamente capacitados</strong> con amplia 
+                        experiencia en el sector de commodities, logística internacional y gestión de cadenas de suministro.
+                    </p>
+                    <p class="text-lg text-neutral-600 leading-relaxed mb-6">
+                        Cada miembro de CABAL comparte nuestra pasión por la excelencia y nuestro compromiso con la 
+                        <strong>innovación continua</strong>, trabajando incansablemente para superar las expectativas 
+                        de nuestros clientes.
+                    </p>
+                    
+                    <div class="grid grid-cols-2 gap-6 mt-8">
+                        <div class="text-center">
+                            <div class="text-3xl font-bold text-primary mb-2">15+</div>
+                            <div class="text-sm text-neutral-600">Años de Experiencia Promedio</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-3xl font-bold text-primary mb-2">100%</div>
+                            <div class="text-sm text-neutral-600">Profesionales Certificados</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="elite-section relative overflow-hidden" style="background: linear-gradient(135deg, #F97316 0%, #EA580C 100%);">
+        <div class="absolute inset-0 bg-black/20"></div>
+        <div class="container relative z-10">
+            <div class="text-center text-white">
+                <h2 class="text-4xl font-secondary font-bold mb-6">
+                    Construyamos el Futuro Juntos
+                </h2>
+                <p class="text-xl mb-8 max-w-3xl mx-auto opacity-95 font-light">
+                    Descubra cómo nuestra experiencia, innovación y compromiso pueden transformar 
+                    su operación y llevar su negocio al siguiente nivel.
+                </p>
+                <div class="flex flex-col sm:flex-row justify-center gap-6">
+                    <a href="products.html" class="btn-elite btn-secondary">
+                        <i class="fas fa-leaf"></i>
+                        Conocer Productos
+                    </a>
+                    <a href="contact.html" class="btn-elite" style="background: rgba(255,255,255,0.2); color: white; border: 2px solid rgba(255,255,255,0.3);">
+                        <i class="fas fa-handshake"></i>
+                        Iniciar Conversación
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Elite Footer -->
+    <footer class="elite-footer">
+        <div class="container">
+            <div class="elite-grid elite-grid-4 mb-12">
+                <!-- Company Info -->
+                <div>
+                    <a href="index.html" class="elite-logo mb-6 cursor-pointer">
+                        <img src="assets/images/logo.jpeg" alt="CABAL Logo" class="w-16 h-16">
+                        <div class="elite-logo-text">
+                            <h3 class="text-2xl font-bold text-primary">CABAL</h3>
+                            <span class="text-xs text-neutral-500">CENTROAMÉRICA DE BALANCEADOS, S.A.</span>
+                        </div>
+                    </a>
+                    <p class="text-neutral-400 leading-relaxed mb-6">
+                        Líderes en soluciones integrales para la industria pecuaria y agroindustrial en Centroamérica, 
+                        con más de una década de experiencia y compromiso con la excelencia.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="w-10 h-10 bg-neutral-800 rounded-full flex items-center justify-center hover:bg-primary transition-colors">
+                            <i class="fab fa-facebook-f text-sm"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/company/centroamerica-de-balanceados-cabal/" target="_blank" class="w-10 h-10 bg-neutral-800 rounded-full flex items-center justify-center hover:bg-primary transition-colors">
+                            <i class="fab fa-linkedin-in text-sm"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-neutral-800 rounded-full flex items-center justify-center hover:bg-primary transition-colors">
+                            <i class="fab fa-twitter text-sm"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-neutral-800 rounded-full flex items-center justify-center hover:bg-primary transition-colors">
+                            <i class="fab fa-instagram text-sm"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Quick Links -->
+                <div>
+                    <h3>Navegación</h3>
+                    <ul class="space-y-3">
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="about.html">Quiénes Somos</a></li>
+                        <li><a href="products.html">Productos</a></li>
+                        <li><a href="contact.html">Contacto</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Services -->
+                <div>
+                    <h3>Servicios</h3>
+                    <ul class="space-y-3">
+                        <li><a href="products.html">Materias Primas</a></li>
+                        <li><a href="about.html">Cadena de Suministros</a></li>
+                        <li><a href="about.html">Almacenamiento</a></li>
+                        <li><a href="about.html">Logística</a></li>
+                        <li><a href="about.html">Trading</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Contact Info -->
+                <div>
+                    <h3>Contacto</h3>
+                    <div class="space-y-4">
+                        <div class="flex items-start space-x-3">
+                            <i class="fas fa-map-marker-alt text-primary mt-1"></i>
+                            <div class="text-sm">
+                                <div class="font-medium text-neutral-300">Oficinas Centrales</div>
+                                <div class="text-neutral-400">
+                                    Km 84, Autopista a Puerto Quetzal<br>
+                                    Masagua, Escuintla 05005, GT
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <i class="fas fa-phone text-primary"></i>
+                            <div class="text-sm">
+                                <div class="font-medium text-neutral-300">+502 4272 2636</div>
+                            </div>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <i class="fas fa-envelope text-primary"></i>
+                            <div class="text-sm">
+                                <div class="font-medium text-neutral-300">soporte@cabalgt.org</div>
+                            </div>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <i class="fas fa-clock text-primary"></i>
+                            <div class="text-sm">
+                                <div class="font-medium text-neutral-300">Lun - Vie: 8:00 AM - 5:00 PM</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Footer Bottom -->
+            <div class="border-t border-neutral-800 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-neutral-500 text-sm mb-4 md:mb-0">
+                    © 2025 CABAL - Centroamérica de Balanceados, S.A. Todos los derechos reservados.
+                </p>
+                <div class="flex space-x-6 text-sm">
+                    <a href="#" class="text-neutral-500 hover:text-primary">Términos y Condiciones</a>
+                    <a href="#" class="text-neutral-500 hover:text-primary">Política de Privacidad</a>
+                    <a href="#" class="text-neutral-500 hover:text-primary">Cookies</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Elite Header Scroll Effect
+        window.addEventListener('scroll', function() {
+            const header = document.getElementById('header');
+            if (window.scrollY > 100) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+
+        // Mobile menu functionality
+        document.getElementById('mobile-menu-btn').addEventListener('click', function() {
+            const mobileMenu = document.getElementById('mobile-menu');
+            mobileMenu.classList.toggle('hidden');
+        });
+        
+        // Close mobile menu when clicking outside
+        document.addEventListener('click', function(e) {
+            const mobileMenu = document.getElementById('mobile-menu');
+            const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+            
+            if (!mobileMenu.contains(e.target) && !mobileMenuBtn.contains(e.target)) {
+                mobileMenu.classList.add('hidden');
+            }
+        });
+
+        // Intersection Observer for animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Observe all animated elements
+        document.querySelectorAll('.animate-slide-in-left, .animate-slide-in-right').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(30px)';
+            el.style.transition = 'opacity 0.8s ease, transform 0.8s ease';
+            observer.observe(el);
+        });
+    </script>
+</body>
+</html>
